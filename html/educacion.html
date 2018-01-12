@@ -22,12 +22,12 @@
 <section id="Datos_personales">
 <p><h2>Datos Personales</h2></p>
 <h3>Nombre:</h3>
-Miguel Eduardo San Martín Suárez 
+Miguel Eduardo San Martín Suárez
 <p><h3>Lugar y fecha de nacimiento:</h3></p>
 Villahermosa, Tabasco el día 20 de abril de 1995
 </section>
 <p><nav id="enlaces">
-  <a href="#">Inicio</a> | <a href="html/educacion.html">Educación</a> | <a href="">Experiencia</a>
+  <a href="../index.html">Inicio</a> | <a href="educacion.html">Educación | <a href="">Experiencia</a>
 </nav></p>
 <p><h2>Educación</h2></p>
 <table border="1">
@@ -53,7 +53,43 @@ Villahermosa, Tabasco el día 20 de abril de 1995
         <td>Si, Licenciatura</td>
       </tr>
     </tbody>
-
 </table>
+<p>
+<form class="formulario" name="Formulario de Estudios">
+  <fieldset>
+    <legend>Agregar Estudios</legend><br/>
+    <label for="año">Año</label>
+    <select class="lista_desplegable" name="año" id="año">
+      <option value="2018">2018</option>
+      <option value="2017">2017</option>
+      <option value="2016">2016</option>
+      <option value="2015">2015</option>
+      <option value="2014">2014</option>
+      <option value="2013">2013</option>
+      <option value="2012">2012</option>
+      <option value="2011">2011</option>
+      <option value="2010">2010</option>
+    </select>
+    <br/>
+    <label for="institucion">Institución</label>
+    <input type="text" name="institucion" id="institucion">
+    <br/>
+    <label for="lugar">Lugar</label>
+    <input type="text" name="lugar">
+    <br/>
+    <label for="culmino">¿Culminó?</label>
+    Si<input type="radio" value="si">
+    No<input type="radio" value="no">
+    <br/>
+    <input type="submit" value="Enviar">
+  </fieldset>
+</form>
+</p>
+<p><footer> <strong>Contacto:</strong><br/>
+<a href="mailto:msanmartinsuarez@gmail.com?subject=Contacto" target="_blank"><img src="../multimedia/gmail.png" alt="logo de gmail" height="10">Contacto por email<br/></a>
+<a href="https://www.facebook.com/miguel.sanmartinsuarez" target="_blank"><img src="../multimedia/facebook.png" alt="logo de facebook" height="10"> Perfil de Facebook<br/></a>
+Teléfono: 9933939953<br/>
+Dirección: Av. del Bosque, Manzana 44B Lote 15 CP 86246, Bosques de Saloya. Nacajuca, Tabasco, México
+</footer></p>
   </body>
 </html>
